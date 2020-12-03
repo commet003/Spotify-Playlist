@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 import os
 
 
-SPOTIFY_CLIENT_ID = os.environ("SPOTIFY_CLIENT_ID")
-SPOTIFY_CLIENT_SECRET = os.environ("SPOTIFY_CLIENT_SECRET")
+SPOTIFY_CLIENT_ID = os.environ["SPOTIFY_CLIENT_ID"]
+SPOTIFY_CLIENT_SECRET = os.environ["SPOTIFY_CLIENT_SECRET"]
 
 
 
